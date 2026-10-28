@@ -1,0 +1,7 @@
+{
+    "js/anfac_retail.js": [
+		"public/js/anfac_retail.js",
+		"public/templates/js/dashboard.html"
+		
+	]
+}

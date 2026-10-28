@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include anfac_retail *.css
+recursive-include anfac_retail *.csv
+recursive-include anfac_retail *.html
+recursive-include anfac_retail *.ico
+recursive-include anfac_retail *.js
+recursive-include anfac_retail *.json
+recursive-include anfac_retail *.md
+recursive-include anfac_retail *.png
+recursive-include anfac_retail *.py
+recursive-include anfac_retail *.svg
+recursive-include anfac_retail *.txt
+recursive-exclude anfac_retail *.pyc

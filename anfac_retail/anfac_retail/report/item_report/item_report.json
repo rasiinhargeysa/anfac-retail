@@ -1,0 +1,34 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-12-16 18:50:24.416483",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "logo",
+ "modified": "2025-12-16 19:02:21.541432",
+ "modified_by": "Administrator",
+ "module": "Anfac Retail",
+ "name": "Item Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\r\n  `Code` AS \"Item Code:Data:100\",\r\n  name AS \"Brand Name:Data:280\",\r\n  item_name AS \"Description:Data:350\",\r\n  \r\n  valuation_rate AS \"Cost:Data:80\",\r\n  standard_rate AS \"Price:Data:80\",\r\n  last_purchase_rate AS \"Last Purchase Rate:Data:120\"\r\nFROM tabItem\r\nWHERE disabled = 0;\r\n",
+ "ref_doctype": "Item",
+ "report_name": "Item Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Auditor"
+  }
+ ]
+}

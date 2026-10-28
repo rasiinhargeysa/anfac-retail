@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-12-24 14:36:17.857547",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"columns\":[{\"label\":\"Posting Date\",\"fieldname\":\"posting_date\",\"fieldtype\":\"Date\",\"width\":90,\"id\":\"posting_date\",\"name\":\"Posting Date\",\"editable\":false},{\"label\":\"Account\",\"fieldname\":\"account\",\"fieldtype\":\"Link\",\"options\":\"Account\",\"width\":180,\"id\":\"account\",\"name\":\"Account\",\"editable\":false,\"compareValue\":null},{\"label\":\"Debit (USD)\",\"fieldname\":\"debit\",\"fieldtype\":\"Float\",\"width\":100,\"id\":\"debit\",\"name\":\"Debit (USD)\",\"editable\":false,\"compareValue\":null},{\"label\":\"Credit (USD)\",\"fieldname\":\"credit\",\"fieldtype\":\"Float\",\"width\":100,\"id\":\"credit\",\"name\":\"Credit (USD)\",\"editable\":false,\"compareValue\":null},{\"label\":\"Balance (USD)\",\"fieldname\":\"balance\",\"fieldtype\":\"Float\",\"width\":130,\"id\":\"balance\",\"name\":\"Balance (USD)\",\"editable\":false,\"compareValue\":null},{\"label\":\"Voucher No\",\"fieldname\":\"voucher_no\",\"fieldtype\":\"Dynamic Link\",\"options\":\"voucher_type\",\"width\":180,\"id\":\"voucher_no\",\"name\":\"Voucher No\",\"editable\":false,\"compareValue\":null}]}",
+ "letter_head": "Header",
+ "modified": "2022-12-24 14:36:57.975549",
+ "modified_by": "Administrator",
+ "module": "Anfac Retail",
+ "name": "General Ledger Summery",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "GL Entry",
+ "reference_report": "General Ledger",
+ "report_name": "General Ledger Summery",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Auditor"
+  }
+ ]
+}
